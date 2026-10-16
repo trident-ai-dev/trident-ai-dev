@@ -14,7 +14,7 @@
 - [ ] Live Ollama, OpenAI and Anthropic smoke tests in an authorized environment
 - [ ] Collect feedback from five relevant developers
 - [ ] Document a sanitized real-world terminal demo
-- [ ] Review Windows and Node 24 CI results before claiming portability
+- [x] Initial Linux/Windows CI checks passed on Node 22 and 24; retain the matrix for ongoing verification
 - [ ] Agree and deliver one tightly scoped customer engagement
 
 ## Consider only if requested

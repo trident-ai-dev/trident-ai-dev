@@ -62,6 +62,7 @@ We'll agree on scope and acceptance criteria before any paid work. The open-sour
 - [Research and product choices](docs/RESEARCH.md)
 - [Roadmap](docs/ROADMAP.md)
 - [A realistic first-customer plan](docs/EARNING-PLAN.md)
+- [Manual profile settings](docs/PROFILE-SETUP.md)
 - [Contributing](CONTRIBUTING.md) · [Security and privacy](SECURITY.md) · [License](LICENSE)
 
 Feedback, reproducible bug reports and thoughtful contributions are welcome.
