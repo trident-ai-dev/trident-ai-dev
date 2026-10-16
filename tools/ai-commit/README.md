@@ -68,7 +68,7 @@ Exit code `0` means success or user cancellation; `1` means an error. Requests t
 - Git hooks remain enabled. An index fingerprint is checked before committing; avoid concurrent `git add` operations while the tool is running. This check is not an atomic lock against another Git process.
 - The tool does not sandbox repository hooks. Do not use it on untrusted repositories.
 - The Ollama URL is fixed to loopback; `OLLAMA_HOST` is intentionally not honored. If your local model service itself uses a remote backend, inspect that service's configuration separately.
-- This is a CLI running on your machine, not a browser application. Cloud inference and real local-model generation have not been exercised in the development sandbox.
+- This is a CLI running on your machine, not a browser application. Live-provider integration testing is pending; current automated tests mock provider responses.
 
 See [security guidance](../../SECURITY.md) and [contribution instructions](../../CONTRIBUTING.md).
 

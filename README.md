@@ -5,7 +5,7 @@
 
 Small tools. Clear documentation. Useful workflows.
 
-[Projects](#projects) · [Run the tools](#quick-start) · [Work with me](#work-with-me)
+[Projects](#projects) · [Run the tools](#quick-start) · [Contact](#contact)
 
 [![Tests](https://github.com/trident-ai-dev/trident-ai-dev/actions/workflows/ci.yml/badge.svg)](https://github.com/trident-ai-dev/trident-ai-dev/actions/workflows/ci.yml)
 [![Node.js 22+](https://img.shields.io/badge/Node.js-22%2B-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
@@ -17,7 +17,7 @@ Small tools. Clear documentation. Useful workflows.
 
 ## About
 
-I'm Trident, a builder based in Greater Noida, India. My projects focus on Android editing workflows, practical automation and developer productivity. I'm building a portfolio of small, understandable tools rather than promising an all-in-one platform.
+I'm Trident, based in Greater Noida, India. I build Android tools, developer utilities and practical automation.
 
 ## Projects
 
@@ -46,23 +46,10 @@ npm run doctor
 
 To generate a commit suggestion, start Ollama, pull `llama3.2`, then run the commit CLI from a repository with staged changes. See the **[complete usage guide](tools/ai-commit/README.md)** first, including privacy and cloud consent requirements.
 
-## Work with me
+## Contact
 
-Have a repetitive developer workflow that could be a small CLI or script? Want help turning a repository into a clearer project with setup instructions, tests and CI?
+For project inquiries, feedback or collaboration: **[shivam5678tripathi@gmail.com](mailto:shivam5678tripathi@gmail.com)**
 
-**[Email me about a project](mailto:shivam5678tripathi@gmail.com?subject=Trident%20project%20inquiry)** with:
-- The problem and who needs it solved
-- An example of the desired input and output (no private data)
-- Your budget, timeline and operating environment
+## Project resources
 
-We'll agree on scope and acceptance criteria before any paid work. The open-source tools stay MIT-licensed; custom implementation and support are separate discussions. No paid hosted product or sponsorship program is currently advertised here.
-
-## Building in public
-
-- [Research and product choices](docs/RESEARCH.md)
-- [Roadmap](docs/ROADMAP.md)
-- [A realistic first-customer plan](docs/EARNING-PLAN.md)
-- [Manual profile settings](docs/PROFILE-SETUP.md)
-- [Contributing](CONTRIBUTING.md) · [Security and privacy](SECURITY.md) · [License](LICENSE)
-
-Feedback, reproducible bug reports and thoughtful contributions are welcome.
+[Roadmap](docs/ROADMAP.md) · [Contributing](CONTRIBUTING.md) · [Security and privacy](SECURITY.md) · [License](LICENSE)
