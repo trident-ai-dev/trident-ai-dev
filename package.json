@@ -1,0 +1,13 @@
+{
+  "name": "trident-dev-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Small, local-first developer utilities from Trident",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check tools/ai-commit/cli.js && node --check tools/ai-commit/core.js && node --check tools/repo-doctor/cli.js && node --check tools/repo-doctor/core.js",
+    "doctor": "node tools/repo-doctor/cli.js . --strict"
+  }
+}
