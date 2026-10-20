@@ -15,6 +15,6 @@
 - [ ] Interactive message editing and regeneration
 - [ ] Configurable team commit conventions
 - [ ] Additional language and CI-system checks for Repo Doctor
-- [ ] Standalone distribution for each tool
+- [ ] Publish and verify the `trident-dev-tools` npm package with `trident-ai-commit` and `trident-repo-doctor` commands
 
 Suggestions and reproducible bug reports are welcome. Planned features have no scheduled release dates.

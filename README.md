@@ -25,9 +25,19 @@ I'm Trident, based in Greater Noida, India. I build Android tools, developer uti
 | --- | --- | --- |
 | **[Trident Commit](tools/ai-commit/)** | Generates Conventional Commit suggestions from staged changes; local Ollama by default, optional cloud providers | Early 0.1 CLI; provider protocols tested with mocks |
 | **[Repo Doctor](tools/repo-doctor/)** | Checks eight repository presentation basics, with JSON output and a CI-friendly exit code | Working offline CLI with automated tests |
-| **[Storyboard Editor](https://github.com/trident-ai-dev/StoryboardEditor)** | Android video timeline editor project using Kotlin and Jetpack Compose | Existing project; see its repository for implementation details |
+| **[Storyboard Editor](https://github.com/trident-ai-dev/StoryboardEditor)** | Android image-sequence video editor prototype using Kotlin and Jetpack Compose | Prototype; build and feature limitations are documented in its repository |
 
-The two developer tools live in this repository. They are not published npm packages and require **Node.js 22+**. No third-party npm dependencies, sign-up or subscription is required. AI generation requires a running local model or a separately billed provider account.
+The developer tools require **Node.js 22+**. They run without third-party npm dependencies, sign-up or subscription when using the offline Repo Doctor or local Ollama provider. AI generation with OpenAI or Anthropic requires a separately billed provider account and explicit cloud consent. The npm package is prepared with two CLI entry points, but **has not been published yet**; the Git clone instructions below work today.
+
+## Planned npm commands (after the first npm release)
+
+```bash
+npm install --global trident-dev-tools
+trident-repo-doctor . --strict
+trident-ai-commit --help
+```
+
+The package has not been published yet, so install from the Git repository using the current Quick Start until a release is announced.
 
 ## Quick start
 
@@ -45,6 +55,12 @@ npm run doctor
 ```
 
 To generate a commit suggestion, start Ollama, pull `llama3.2`, then run the commit CLI from a repository with staged changes. See the **[complete usage guide](tools/ai-commit/README.md)** first, including privacy and cloud consent requirements.
+
+## Paid project inquiries
+
+I am open to clearly scoped, paid work involving Android utility prototypes, Termux/CLI automation, repository setup, and CI/test improvements. Availability and fit are confirmed before work begins; no client history or delivery guarantee is implied.
+
+To discuss a project, email **[shivam5678tripathi@gmail.com](mailto:shivam5678tripathi@gmail.com)** with the problem, target platform/device, expected deliverable, deadline, and budget range.
 
 ## Contact
 

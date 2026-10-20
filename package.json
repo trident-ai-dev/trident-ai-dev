@@ -1,13 +1,37 @@
 {
   "name": "trident-dev-tools",
   "version": "0.1.0",
-  "private": true,
-  "description": "Small, local-first developer utilities from Trident",
+  "description": "Local-first developer CLIs: Conventional Commit suggestions and offline repository checks",
   "license": "MIT",
-  "engines": {"node": ">=22"},
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "test": "node --test",
     "check": "node --check tools/ai-commit/cli.js && node --check tools/ai-commit/core.js && node --check tools/repo-doctor/cli.js && node --check tools/repo-doctor/core.js",
-    "doctor": "node tools/repo-doctor/cli.js . --strict"
+    "doctor": "node tools/repo-doctor/cli.js . --strict",
+    "prepublishOnly": "npm run check && npm test"
+  },
+  "bin": {
+    "trident-ai-commit": "./tools/ai-commit/cli.js",
+    "trident-repo-doctor": "./tools/repo-doctor/cli.js"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "tools/ai-commit/cli.js",
+    "tools/ai-commit/core.js",
+    "tools/ai-commit/README.md",
+    "tools/repo-doctor/cli.js",
+    "tools/repo-doctor/core.js",
+    "tools/repo-doctor/README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trident-ai-dev/trident-ai-dev.git"
+  },
+  "homepage": "https://github.com/trident-ai-dev/trident-ai-dev#readme",
+  "bugs": {
+    "url": "https://github.com/trident-ai-dev/trident-ai-dev/issues"
   }
 }
